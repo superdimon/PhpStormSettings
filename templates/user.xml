@@ -1,0 +1,36 @@
+<templateSet group="user">
+  <template name="a" value="alert($var$);" description="alert()" toReformat="false" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="gm" value="{{ GetMessage('$var$') }}" description="getMessage" toReformat="false" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="cz" value="console.log('+'); //TODO: del" description="+" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="eimg" value="&lt;img src=&quot;$VAR$&quot; alt=&quot;&quot; class=&quot;show_mobile&quot;&gt;" description="ecos adaptive img" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="esm" value="&lt;div class=&quot;load_more_text&quot;&gt;&#10;    &lt;span&gt;&lt;?=GetMessage(&quot;DFA_TMPL_SHOW_MORE&quot;)?&gt;&lt;/span&gt;&#10;&lt;/div&gt;" description="ecos show more adaptive" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="prc" value="echo &quot;\n&quot;;&#10;print_r($VAR$);&#10;echo &quot;\n&quot;;&#10;ob_flush();&#10;usleep(1);" description="print_r in console scripts" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>

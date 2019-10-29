@@ -1,0 +1,195 @@
+<templateSet group="PHP">
+  <template name="pr" value="echo &quot;&lt;pre&gt;&quot;;&#10;print_r($var$);&#10;echo &quot;&lt;/pre&gt;&quot;;" description="print r with pre in php" toReformat="false" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="qw" value="_d();" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="ddd" value="&#10;// TODO: del DEBUG /////////////////////////////////////////////////////////////////////////////////////////////////////&#10;&#10;$file = $_SERVER[&quot;DOCUMENT_ROOT&quot;].'/debug_$var$.log';&#10;$handle = fopen($file, 'a+b');&#10;ob_start();&#10;echo date(&quot;Y-m-d H:i:s&quot;).&quot;\n&quot;;&#10;debug_print_backtrace();&#10;print_r($var2$);&#10;echo &quot;\n&quot;;&#10;// var_dump();&#10;echo &quot;\n&quot;;&#10;$current = ob_get_contents();&#10;ob_end_clean();&#10;file_put_contents($file, $current, FILE_APPEND);&#10;&#10;// TODO: del DEBUG /////////////////////////////////////////////////////////////////////////////////////////////////////&#10;" description="debug" toReformat="false" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="var2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="1" value="if($USER-&gt;GetID() == '1'){&#10;    &#10;}" description="if user id = 1" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="ad" value="global $USER;&#10;if ($USER-&gt;IsAdmin()){&#10;&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="tdd" value="// TODO: delete" description="todo delete" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP String Literal" value="false" />
+    </context>
+  </template>
+  <template name="td" value="// TODO: " description="todo" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="ifbindex" value="if ($APPLICATION-&gt;GetCurPage(true) !== SITE_DIR.&quot;index.php&quot;){&#10;            &#10;}" description="if bitrix index page" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="tdcon" value="/* TODO: в константу */" description="todo constant" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="gbm" value="&lt;?=GetMessage('')?&gt;" description="get bitrix mess" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="R" value="$arResult['']" description="ECHO $ARrESULT" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bn" value="if(!defined(&quot;B_PROLOG_INCLUDED&quot;) || B_PROLOG_INCLUDED!==true)die();" description="bitrix prolog included check" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="fr" value="foreach ($var$) {&#10;  &#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="ei" value="$arItem['']" description="$arItem" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="qq" value="var_dump($var$); // TODO: del" description="print func" toReformat="false" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="gm" value="GetMessage('$val$')" description="GetMessage" toReformat="false" toShortenFQNames="true">
+    <variable name="val" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP String Literal" value="false" />
+    </context>
+  </template>
+  <template name="dddd" value="$APPLICATION-&gt;AddViewContent('debug_DV', p($var$));" description="put debug buffer" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="dds" value="$APPLICATION-&gt;ShowViewContent('debug_DV');" description="show debug buffer" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="prologl" value="&lt;?&#10;if(!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) die();&#10;use Bitrix\Main\Localization\Loc;&#10;?&gt;" description="check bitrix prolog included" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="CDFACache" value="&#10;$cache = new \CDFACache(array_merge($arFilter, $arSelect), $arParams['CACHE_TIME']);&#10;$result = $cache-&gt;Init();&#10;&#10;&#10;&#10;if(null == $result) {&#10;    &#10;    &#10;    &#10;    if($result){&#10;        foreach (array(CDFAIBlockTools::GetIDByCode(&quot;&quot;)) as $nIblockID)&#10;            $cache-&gt;registerTag(&quot;iblock_id_&quot;.$nIblockID);&#10;        $cache-&gt;set($result);&#10;    }&#10;    else{&#10;        $cache-&gt;abort();&#10;    }&#10;}&#10;" description="CDFACache template" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="prr" value="&lt;?=$arResult['']?&gt;" description="echo arResult" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="pit" value="$arItem['$var$']" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="footer" value="&lt;?require($_SERVER[&quot;DOCUMENT_ROOT&quot;].&quot;/bitrix/footer.php&quot;);?&gt;" description="include bitrix footer" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="e1" value="echo 1;" description="echo 1" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="arr" value="$arResult['$var$']" description="arResult" toReformat="false" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="qr" value="p($arResult); // TODO: del" description="print func arResult" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="prolog" value="&lt;?php&#10;if(!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) {&#10;    die();&#10;}" description="check bitrix prolog included" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="qqq" value="p2f($VAR$); /* TODO: delete */" description="print to file defa" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="ff" value="p2f($VAR$); /* TODO: del */" description="p2f() func" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="df" value="file_put_contents($_SERVER['DOCUMENT_ROOT'].'/$VAR1$.log', $VAR2$, FILE_APPEND);" description="debug ti file" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR2" expression="" defaultValue="" alwaysStopAt="true" />
+  </template>
+  <template name="qa" value="_p($VAR$); // TODO: delete" description="print for all" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="sc" value="echo &quot;&lt;script&gt;&quot;;&#10;echo &quot;console.log(&quot;.json_encode($VAR$).&quot;);&quot;;&#10;echo &quot;&lt;/script&gt;&quot;;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="q" value="dump($VAR$); // TODO: del" description="dump" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="vdd" value="// TODO: del debug&#10;var_dump($VAR$);&#10;die();" description="vdr_dump and die" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="cf" value="__CLASS__ . '::' . __FUNCTION__" description="class function" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>

@@ -1,0 +1,195 @@
+<templateSet group="html/xml">
+  <template name="pr" value="&lt;pre&gt;&lt;?print_r($var$)?&gt;&lt;/pre&gt;" description="print_R in html with pre" toReformat="false" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="qw" value="&lt;?_d();?&gt;" description="vardump" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="p" value="&lt;?php $var$?&gt;" description="php open tag" toReformat="false" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="p=" value="&lt;?=$var$?&gt;" description="php short tag" toReformat="false" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ifbindex" value="&lt;?if ($APPLICATION-&gt;GetCurPage(true) !== SITE_DIR.&quot;index.php&quot;):?&gt;&#10;            &#10;&lt;?endif;?&gt;" description="if index page bitrix" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="td" value="&lt;!-- TODO: $decs$ --&gt;" description="&lt;!-- TODO: desc  --&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="decs" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="tdl" value="&lt;!-- TODO: языковые константы --&gt;" description="todo lang const" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="er" value="&lt;?= $arResult[''] ?&gt;" description="echo $arResult" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="bn" value="&lt;?if(!defined(&quot;B_PROLOG_INCLUDED&quot;) || B_PROLOG_INCLUDED!==true)die();" description="bitrix prolog inc check" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="arr" value="&lt;?=$arResult['$VAR$']?&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="fr" value="&lt;?foreach($var$):?&gt;&#10;&#10;&lt;?endforeach?&gt;" description="foreach" toReformat="false" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="ei" value="&lt;?= $arItem[''] ?&gt;" description="echo $arItem[]" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="if" value="&lt;?if($var$):?&gt;&#10;&#10;&lt;?endif;?&gt;" description="if construction" toReformat="false" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="gm" value="&lt;?=GetMessage(&quot;$var$&quot;)?&gt;" description="php bitrix GetMessage" toReformat="false" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+    </context>
+  </template>
+  <template name="arp" value="$arParams" description="arParams" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="q" value="&lt;?p($var$) // TODO: del?&gt;" description="print func" toReformat="false" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="tdinf" value="&lt;!-- TODO: includeFile $decs$ --&gt;" description="&lt;!-- TODO: include file  --&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="decs" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="tdc" value="&lt;!-- TODO: component $decs$ --&gt;" description="&lt;!-- TODO: component  --&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="decs" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="ife" value="&lt;?if($var$):?&gt;&#10;&#10;&lt;?else:?&gt;&#10;&#10;&lt;?endif;?&gt;" description="if else construction" toReformat="false" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="ifeif" value="&lt;?if($var$):?&gt;&#10;&#10;&lt;?elseif():?&gt;&#10;&#10;&lt;?endif;?&gt;" description="if elseif construction" toReformat="false" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="ajaxb" value="&lt;? require($_SERVER[&quot;DOCUMENT_ROOT&quot;] . &quot;/bitrix/modules/main/include/prolog_before.php&quot;);&#10;&#10;if (!defined(&quot;B_PROLOG_INCLUDED&quot;) || B_PROLOG_INCLUDED !== true) die();&#10;" description="bitrix com[ponent ajax template" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="pit" value="&lt;?=$arItem['$var$']?&gt;" description="print arItem" toReformat="false" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="mess" value="$MESS[''] = '$var$';" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="prr" value="&lt;?=$arResult['$var$']?&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="frqr" value="&lt;?foreach($arResult['ITEMS'] as $var$):?&gt;&#10;    &lt;?p($var$);?&gt;&#10;&lt;?endforeach?&gt;" description="foreach" toReformat="false" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="header" value="&lt;?require($_SERVER[&quot;DOCUMENT_ROOT&quot;].&quot;/bitrix/header.php&quot;);" description="include bitrix header" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+      <option name="PHP" value="false" />
+      <option name="PHP Comment" value="true" />
+      <option name="PHP String Literal" value="true" />
+    </context>
+  </template>
+  <template name="c" value="&lt;?/* $COMMENT$ */?&gt;" description="comment" toReformat="false" toShortenFQNames="true">
+    <variable name="COMMENT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="ari" value="&lt;?=$arItem['$VAR$']?&gt;" description="$arItem" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="qr" value="&lt;?p($arResult) // TODO: del?&gt;" description="print func" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="ab" value="&lt;?php if (\Bitrix\Main\Context::getCurrent()-&gt;getRequest()-&gt;isAjaxRequest()) $APPLICATION-&gt;RestartBuffer(); ?&gt;" description="if ajax restart buffer" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="ad" value="&lt;?php if (\Bitrix\Main\Context::getCurrent()-&gt;getRequest()-&gt;isAjaxRequest()) $APPLICATION-&gt;RestartBuffer(); ?&gt;" description="if ajax then DIEEEEEEE BITCH" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="inc" value="&lt;? $APPLICATION-&gt;IncludeComponent(&quot;bitrix:main.include&quot;, &quot;.default&quot;, array(&#10;    &quot;AREA_FILE_SHOW&quot; =&gt; &quot;file&quot;,&#10;    &quot;PATH&quot;           =&gt; &quot;/local/includes/&quot;.LANGUAGE_ID.&quot;/$VAR$.php&quot;,&#10;), $component); ?&gt;" description="bitrix include component" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="ga" value="data-category=&quot;$VAR$&quot; data-action=&quot;$VAR2$&quot; data-opt_label=&quot;$VAR3$&quot;" description="gatrack attributes" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR3" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+</templateSet>

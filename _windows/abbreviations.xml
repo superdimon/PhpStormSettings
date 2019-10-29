@@ -1,0 +1,9 @@
+<application>
+  <component name="AbbreviationManager">
+    <abbreviations>
+      <action id="com.jetbrains.plugins.remotesdk.console.RunSshConsoleAction">
+        <abbreviation name="ssh" />
+      </action>
+    </abbreviations>
+  </component>
+</application>

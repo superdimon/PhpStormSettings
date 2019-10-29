@@ -1,0 +1,8 @@
+<templateSet group="Twig">
+  <template name="v" value="&lt;pre&gt;&#10;    {{ dump($var$) }}   &#10;&lt;/pre&gt;" description="var_dump" toReformat="false" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+</templateSet>

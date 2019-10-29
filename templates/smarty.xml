@@ -1,0 +1,7 @@
+<templateSet group="smarty">
+  <template name="vd" value="&lt;pre&gt;{|var_dump}&lt;/pre&gt;" description="var_dump smarty" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>

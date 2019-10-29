@@ -1,0 +1,8 @@
+<templateSet group="Zen HTML">
+  <template name="cm" value="&lt;!-- $END$ --&gt;" description="&lt;!-- --&gt;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="JSX_HTML" value="true" />
+    </context>
+  </template>
+</templateSet>
