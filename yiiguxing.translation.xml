@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="ensurance" />
       <item value="ensurance Number" />
       <item value="согласование" />
       <item value="unless" />
@@ -19,8 +20,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="ENGLISH" value="16" />
-        <entry key="RUSSIAN" value="16" />
+        <entry key="ENGLISH" value="17" />
+        <entry key="RUSSIAN" value="17" />
         <entry key="UKRAINIAN" value="1" />
       </map>
     </option>
