@@ -1,6 +1,10 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="credic contract" />
+      <item value="proxy" />
+      <item value="доверенность" />
+      <item value="attorney" />
       <item value="согласие супруга" />
       <item value="источниу" />
       <item value="адрес назначения" />
@@ -24,8 +28,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="ENGLISH" value="18" />
-        <entry key="RUSSIAN" value="19" />
+        <entry key="ENGLISH" value="20" />
+        <entry key="RUSSIAN" value="21" />
         <entry key="UKRAINIAN" value="1" />
       </map>
     </option>
