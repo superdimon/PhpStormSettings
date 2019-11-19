@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="disqualify" />
+      <item value="disualify" />
       <item value="Responce" />
       <item value="credic contract" />
       <item value="proxy" />
@@ -29,9 +31,10 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="ENGLISH" value="21" />
-        <entry key="RUSSIAN" value="21" />
+        <entry key="ENGLISH" value="22" />
+        <entry key="RUSSIAN" value="22" />
         <entry key="UKRAINIAN" value="1" />
+        <entry key="JAVANESE" value="1" />
       </map>
     </option>
   </component>
