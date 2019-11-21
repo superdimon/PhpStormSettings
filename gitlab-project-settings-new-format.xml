@@ -3,7 +3,7 @@
     <option name="gitlabServers">
       <list>
         <GitlabServer>
-          <option name="apiToken" value="AfXRqnxRa6MUiyj57y6_" />
+          <option name="apiToken" value="zxYmyEQ2R97GpPBTwRX6" />
           <option name="apiUrl" value="https://gitlab.idefa.ru" />
           <option name="preferredConnection" value="HTTPS" />
           <option name="repositoryUrl" value="gitlab.idefa.ru" />
