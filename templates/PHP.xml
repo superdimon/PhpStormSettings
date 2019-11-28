@@ -192,7 +192,7 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="trc" value="try {&#10;   $VAR$&#10;} catch (Exception $e) {&#10;    throw new Exception($e-&gt;getMessage());&#10;}" description="try catch" toReformat="false" toShortenFQNames="true">
+  <template name="trc" value="try {&#10;   $VAR$&#10;} catch (Exception $e) {&#10;    throw new Exception($e-&gt;getFile() . ':' . $e-&gt;getLine() . ': ' . $e-&gt;getMessage(), $e-&gt;getCode());&#10;}" description="try catch" toReformat="false" toShortenFQNames="true">
     <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
