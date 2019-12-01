@@ -1,6 +1,12 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="apartments square " />
+      <item value="square " />
+      <item value="aquare " />
+      <item value="area of house" />
+      <item value="фкуф ща рщгыу" />
+      <item value="площадь" />
       <item value="Жилой Комплекс" />
       <item value="ЖК" />
       <item value="рассрочка" />
@@ -43,7 +49,7 @@
     <option name="languageScores">
       <map>
         <entry key="ENGLISH" value="25" />
-        <entry key="RUSSIAN" value="25" />
+        <entry key="RUSSIAN" value="26" />
         <entry key="UKRAINIAN" value="1" />
         <entry key="JAVANESE" value="1" />
       </map>
