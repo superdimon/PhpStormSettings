@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="согласование" />
+      <item value="agreement" />
       <item value="apartments square " />
       <item value="square " />
       <item value="aquare " />
@@ -31,7 +33,6 @@
       <item value="назначение" />
       <item value="ensurance" />
       <item value="ensurance Number" />
-      <item value="согласование" />
       <item value="unless" />
       <item value="constraints" />
       <item value="архивировать материалы пресс цуентра" />
@@ -48,8 +49,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="ENGLISH" value="25" />
-        <entry key="RUSSIAN" value="26" />
+        <entry key="ENGLISH" value="27" />
+        <entry key="RUSSIAN" value="27" />
         <entry key="UKRAINIAN" value="1" />
         <entry key="JAVANESE" value="1" />
       </map>
