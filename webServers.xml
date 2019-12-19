@@ -545,6 +545,14 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="185e9b0b-5116-416a-bc51-f793989baa74" name="domrz.dev.defa.ru" url="http://10.199.14.14">
+        <fileTransfer host="10.199.14.14" port="22" privateKey="C:\Users\dmitry.volya\.ssh\dmitry.volya.ppk" rootFolder="/home/bitrix/ext_www/dev01.domrz.dev.defa.ru" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
