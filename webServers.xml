@@ -2,7 +2,7 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="0fa4e159-0dfa-4f13-84fe-ac07c6e46104" name="lukoil-dev.dev.defa.ru" url="http://10.199.14.61">
-        <fileTransfer host="10.199.14.61" port="22" privateKey="C:\Users\zedcr\.ssh\defa\dmitry.volya.ppk" rootFolder="/home/bitrix/ext_www/dev03.lukoil-dev.dev.defa.ru/backend/" accessType="SFTP" keyPair="true">
+        <fileTransfer host="10.199.14.61" port="22" privateKey="C:\Users\dmitry.volya\.ssh\dmitry.volya.ppk" rootFolder="/home/bitrix/ext_www/dev03.lukoil-dev.dev.defa.ru/backend/" accessType="SFTP" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
