@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Circular reference" />
       <item value="LENGTH" />
       <item value="is Bank Chosen" />
       <item value="Добавить несколько" />
@@ -50,12 +51,11 @@
       <item value="архивировать" />
       <item value="installments" />
       <item value="задавать" />
-      <item value="set" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="ENGLISH" value="32" />
-        <entry key="RUSSIAN" value="32" />
+        <entry key="ENGLISH" value="33" />
+        <entry key="RUSSIAN" value="33" />
         <entry key="UKRAINIAN" value="1" />
         <entry key="JAVANESE" value="1" />
       </map>
