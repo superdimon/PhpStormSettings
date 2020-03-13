@@ -2,26 +2,24 @@
   <component name="FileTypeManager" version="17">
     <ignoreFiles list="*.hprof;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.svn;CVS;RCS;SCCS;__pycache__;_svn;rcs;" />
     <extensionMap>
-      <mapping pattern="*.js.flow" type="Flow" />
-      <mapping pattern="*.js.flow" type="Flow" />
       <mapping pattern="checkbox" type="Native" />
       <mapping pattern="banner" type="PHP" />
       <mapping ext="bak" type="PHP" />
-      <mapping pattern="1" type="PLAIN_TEXT" />
       <mapping pattern="index" type="PLAIN_TEXT" />
-      <mapping pattern="status" type="PLAIN_TEXT" />
+      <mapping pattern="error_log" type="PLAIN_TEXT" />
       <mapping pattern="0," type="PLAIN_TEXT" />
       <mapping pattern="feedback" type="PLAIN_TEXT" />
-      <mapping pattern="error_log" type="PLAIN_TEXT" />
       <mapping pattern=".gitconfig" type="PLAIN_TEXT" />
       <mapping pattern="diff" type="PLAIN_TEXT" />
+      <mapping pattern=".enabled" type="PLAIN_TEXT" />
       <mapping pattern="N" type="PLAIN_TEXT" />
       <mapping pattern="access_log" type="PLAIN_TEXT" />
       <mapping pattern="test" type="PLAIN_TEXT" />
-      <mapping pattern=".enabled" type="PLAIN_TEXT" />
+      <mapping pattern="1" type="PLAIN_TEXT" />
       <mapping pattern="tour_testingserver_macos" type="PLAIN_TEXT" />
       <mapping pattern="feedback.php" type="PLAIN_TEXT" />
       <mapping pattern="config" type="PLAIN_TEXT" />
+      <mapping pattern="status" type="PLAIN_TEXT" />
       <mapping ext="dat" type="PLAIN_TEXT" />
       <mapping ext="eot" type="PLAIN_TEXT" />
       <mapping ext="old" type="PLAIN_TEXT" />
