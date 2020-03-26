@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="teen" />
+      <item value="you have aquired the knowledge of Capitalism" />
       <item value="SEQUENCE" />
       <item value="архитектура" />
       <item value="Circular reference" />
@@ -49,13 +51,11 @@
       <item value="constraints" />
       <item value="архивировать материалы пресс цуентра" />
       <item value="toarchive Press Centre Materials" />
-      <item value="archive Press Centre Materials" />
-      <item value="архивировать" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="ENGLISH" value="35" />
-        <entry key="RUSSIAN" value="35" />
+        <entry key="ENGLISH" value="36" />
+        <entry key="RUSSIAN" value="36" />
         <entry key="UKRAINIAN" value="1" />
         <entry key="JAVANESE" value="1" />
       </map>
