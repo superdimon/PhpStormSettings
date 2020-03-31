@@ -553,6 +553,14 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="9eafc0b8-b9f4-49f7-8664-10c70e27fa27" name="used-cars.renault" url="http://10.199.14.43">
+        <fileTransfer host="10.199.14.43" port="22" privateKey="C:\Users\zedcr\.ssh\dmitry.volya.ppk" rootFolder="/home/bitrix" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
