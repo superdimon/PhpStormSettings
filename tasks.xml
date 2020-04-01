@@ -4,7 +4,7 @@
       <task priority="Normal" completed="false" estimated="41400" created="1585743964827" actual="0" highlighted="false" highlightingtype="Red" title="online.pioneer.ru" description="Backend API ">
         <task priority="Normal" completed="true" estimated="1800" created="1585744112489" actual="0" highlighted="false" highlightingtype="Red" title="передача признака необходимости интеграции ипотечной заявки с ЦИ" description="" />
         <task priority="Normal" completed="true" estimated="3600" created="1585744120937" actual="0" highlighted="false" highlightingtype="Red" title="URL ссылка на анкету" description="" />
-        <task priority="Normal" completed="false" estimated="3600" created="1585744137976" actual="0" highlighted="false" highlightingtype="Red" title="endpoint на выдачу клиентского токена отдельно" description="" />
+        <task priority="Normal" completed="true" estimated="3600" created="1585744137976" actual="0" highlighted="false" highlightingtype="Red" title="endpoint на выдачу клиентского токена отдельно" description="" />
         <task priority="Normal" completed="true" estimated="3600" created="1585744146904" actual="0" highlighted="false" highlightingtype="Red" title="Рефакторинг (значения по умолчанию)" description="" />
         <task priority="Normal" completed="false" estimated="1800" created="1585744162330" actual="0" highlighted="false" highlightingtype="Red" title="вывод данных ипотечного менеджера" description="" />
         <task priority="Normal" completed="false" estimated="7200" created="1585744174616" actual="0" highlighted="false" highlightingtype="Red" title="Вывод ипотечных одобрений" description="" />
