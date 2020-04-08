@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="пройден" />
       <item value="STATUS SKIP" />
       <item value="STATUS" />
       <item value="STEP STATUS SKIP" />
@@ -50,11 +51,10 @@
       <item value="согласие супруга" />
       <item value="источниу" />
       <item value="адрес назначения" />
-      <item value="назначение" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="ENGLISH" value="40" />
+        <entry key="ENGLISH" value="41" />
         <entry key="RUSSIAN" value="41" />
         <entry key="UKRAINIAN" value="1" />
         <entry key="JAVANESE" value="1" />
