@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="get Passport Date Issue" />
+      <item value="OK" />
       <item value="пройден" />
       <item value="STATUS SKIP" />
       <item value="STATUS" />
@@ -49,13 +51,11 @@
       <item value="доверенность" />
       <item value="attorney" />
       <item value="согласие супруга" />
-      <item value="источниу" />
-      <item value="адрес назначения" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="ENGLISH" value="41" />
-        <entry key="RUSSIAN" value="41" />
+        <entry key="ENGLISH" value="43" />
+        <entry key="RUSSIAN" value="43" />
         <entry key="UKRAINIAN" value="1" />
         <entry key="JAVANESE" value="1" />
       </map>
