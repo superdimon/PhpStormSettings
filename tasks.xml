@@ -7,9 +7,9 @@
         <task priority="Normal" completed="true" estimated="3600" created="1585744137976" actual="0" highlighted="false" highlightingtype="Red" title="endpoint на выдачу клиентского токена отдельно" description="" />
         <task priority="Normal" completed="true" estimated="3600" created="1585744146904" actual="0" highlighted="false" highlightingtype="Red" title="Рефакторинг (значения по умолчанию)" description="" />
         <task priority="Normal" completed="true" estimated="1800" created="1585744162330" actual="0" highlighted="false" highlightingtype="Red" title="вывод данных ипотечного менеджера" description="" />
-        <task priority="Normal" completed="false" estimated="7200" created="1585744174616" actual="0" highlighted="false" highlightingtype="Red" title="Вывод ипотечных одобрений" description="" />
-        <task priority="Normal" completed="false" estimated="5400" created="1585744182192" actual="0" highlighted="false" highlightingtype="Red" title="выбор банка по ипотечному одобрению" description="" />
-        <task priority="Normal" completed="false" estimated="14400" created="1585744199707" actual="0" highlighted="false" highlightingtype="Red" title="Хранение логитипов банков, раздел в админке" description="" />
+        <task priority="Normal" completed="true" estimated="7200" created="1585744174616" actual="0" highlighted="false" highlightingtype="Red" title="Вывод ипотечных одобрений" description="" />
+        <task priority="Normal" completed="true" estimated="5400" created="1585744182192" actual="0" highlighted="false" highlightingtype="Red" title="выбор банка по ипотечному одобрению" description="" />
+        <task priority="Normal" completed="true" estimated="14400" created="1585744199707" actual="0" highlighted="false" highlightingtype="Red" title="Хранение логитипов банков, раздел в админке" description="" />
         <task priority="Normal" completed="false" estimated="0" created="1587746252096" actual="0" highlighted="false" highlightingtype="Red" title="таблица изменений " description="CacheEntity key, modifiedOn, id" />
         <task priority="Normal" completed="false" estimated="0" created="1587746270301" actual="0" highlighted="false" highlightingtype="Red" title="таблица кэша шагов success " description="" />
         <task priority="Normal" completed="false" estimated="0" created="1587746311172" actual="0" highlighted="false" highlightingtype="Red" title="удаление и проверка инфалидации кэша" description="" />
