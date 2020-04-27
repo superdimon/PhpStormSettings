@@ -131,7 +131,7 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="arr" value="$arResult['$var$']" description="arResult" toReformat="false" toShortenFQNames="true">
+  <template name="arr" value="$arResult['$var$']" description="arResult" toReformat="false" toShortenFQNames="true" deactivated="true">
     <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
