@@ -1,11 +1,7 @@
 <application>
   <component name="MaterialThemeConfig">
-    <option name="contrastMode" value="true" />
-    <option name="highContrast" value="true" />
-    <option name="highlightColorEnabled" value="true" />
-    <option name="styledDirectories" value="true" />
     <option name="darkTitleBar" value="true" />
-    <option name="isHighlightColorEnabled" value="true" />
+    <option name="highlightColorEnabled" value="true" />
     <option name="isContrastMode" value="true" />
     <option name="isHighContrast" value="true" />
     <option name="isStyledDirectories" value="true" />
@@ -18,7 +14,7 @@
     <option name="highlightColor" value="e94a00" />
     <option name="selectedTheme" value="DEEPOCEAN" />
     <option name="userId" value="78187e9e:1699576d1ae:-8000" />
-    <option name="version" value="5.2.0" />
+    <option name="version" value="4.11.5" />
     <option name="tabHighlightPosition" value="Top" />
   </component>
 </application>
