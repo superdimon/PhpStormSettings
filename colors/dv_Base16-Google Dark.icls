@@ -4,7 +4,7 @@
     <property name="created">2020-08-06T19:52:34</property>
     <property name="ide">PhpStorm</property>
     <property name="ideVersion">2020.1.2.0.0</property>
-    <property name="modified">2020-08-07T15:46:13</property>
+    <property name="modified">2020-08-07T16:12:43</property>
     <property name="originalScheme">Base16-Google Dark</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.4" />
@@ -37,7 +37,7 @@
     <option name="DIFF_SEPARATORS_BACKGROUND" value="1e2a30" />
     <option name="DIFF_SEPARATORS_TOP_BORDER" value="1b262b" />
     <option name="DOCUMENTATION_COLOR" value="1d1f21" />
-    <option name="FILESTATUS_ADDED" value="80cbc4" />
+    <option name="FILESTATUS_ADDED" value="37cb52" />
     <option name="FILESTATUS_COPIED" value="659d9a" />
     <option name="FILESTATUS_DELETED" value="cc342b" />
     <option name="FILESTATUS_HIJACKED" value="fba922" />
@@ -49,14 +49,15 @@
     <option name="FILESTATUS_IDEA_SVN_FILESTATUS_EXTERNAL" value="198844" />
     <option name="FILESTATUS_IGNORE.PROJECT_VIEW.IGNORED" value="969896" />
     <option name="FILESTATUS_MERGED" value="65738e" />
-    <option name="FILESTATUS_MODIFIED" value="80cbc4" />
+    <option name="FILESTATUS_MODIFIED" value="33cbc0" />
     <option name="FILESTATUS_NOT_CHANGED" value="626669" />
     <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="80cbc4" />
-    <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="80cbc4" />
+    <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="9dd5b5" />
     <option name="FILESTATUS_SUPPRESSED" value="3c3f41" />
     <option name="FILESTATUS_UNKNOWN" value="cc342b" />
+    <option name="FILESTATUS_addedOutside" value="71cb89" />
     <option name="FILESTATUS_changelistConflict" value="cc342b" />
-    <option name="FILESTATUS_modifiedOutside" value="80cbc4" />
+    <option name="FILESTATUS_modifiedOutside" value="33cbc0" />
     <option name="GUTTER_BACKGROUND" value="1d1f21" />
     <option name="INDENT_GUIDE" value="37474f" />
     <option name="INFORMATION_HINT" value="1d1f21" />
