@@ -1,0 +1,7 @@
+<application>
+  <component name="GithubAccounts">
+    <account id="b7be750e-a23d-4c19-b4d6-7b1502861217" name="superdimon">
+      <server host="github.com" />
+    </account>
+  </component>
+</application>

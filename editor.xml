@@ -3,8 +3,15 @@
     <option name="ERROR_STRIPE_MARK_MIN_HEIGHT" value="3" />
     <option name="SHOW_METHOD_SEPARATORS" value="true" />
   </component>
+  <component name="DefaultFont">
+    <option name="USE_LIGATURES" value="true" />
+    <option name="SECONDARY_FONT_FAMILY" value="Fira Code" />
+  </component>
   <component name="EditorSettings">
     <option name="USE_SOFT_WRAPS" value="MAIN_EDITOR:CONSOLE" />
     <option name="SOFT_WRAP_FILE_MASKS" value="*.md; *.txt; *.rst; *.adoc" />
+  </component>
+  <component name="SqlCodeCompletionSettings" AUTO_ALIAS_TABLE="true">
+    <option name="autoAliasTable" value="true" />
   </component>
 </application>
