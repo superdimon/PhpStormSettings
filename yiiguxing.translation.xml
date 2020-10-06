@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="set Invalid By Phone" />
       <item value="trusted Phone" />
       <item value="Reqistration" />
       <item value="40 packages you are using are looking for funding." />
@@ -50,12 +51,11 @@
       <item value="disqualify" />
       <item value="disualify" />
       <item value="Responce" />
-      <item value="credic contract" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="ENGLISH" value="46" />
-        <entry key="RUSSIAN" value="46" />
+        <entry key="ENGLISH" value="47" />
+        <entry key="RUSSIAN" value="47" />
         <entry key="UKRAINIAN" value="1" />
         <entry key="JAVANESE" value="1" />
       </map>
